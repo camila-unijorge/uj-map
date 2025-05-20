@@ -5,9 +5,22 @@ body {
 
 #header {
     width: 100vw;
-    height: 40px;
+    min-height: 40px;
 
     position: fixed;
 
     border-bottom: 5px solid cyan;
+
+    display: flex;
+}
+
+#header > .app-logo {
+    width: 150px;
+    height: 70px;
+
+    background-color: blueviolet;
+}
+
+#header > .links {
+
 }
